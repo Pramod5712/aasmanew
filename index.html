@@ -22,7 +22,31 @@
 <body><!--BBBBBB  OOOOOOOOO  DDDDDDDDDDD  YYYYYYYYY------->
   
 
-  
+          <!--log in section-->
+        <div class="logsec">
+  <div class="logmain">
+ <div class="login-box">
+     <h2>Login</h2>
+     <form name="myform" method="post">
+    
+      <div class="textbox">
+          <i class="fas fa-user"></i>        
+    <input type="text" id="user" placeholder="Username" name="un"></div>
+        
+        
+      <div class="textbox">
+          <i class="fas fa-lock"></i>
+    <input type="password" id="passd" placeholder="Password" name="pass"></div>
+    
+        <input type="button" class="btn" value="Sign in">
+    </form>
+</div>
+    </div>      
+        
+        
+    </div> 
+       <!--log in section end-->
+
   
   
   <div class="main">
@@ -208,7 +232,8 @@ var pass = document.forms["myform"]["pass"].value;
 
 if(un=="a" && pass=="1"){
  document.querySelector('.logsec').style.display="none";
-    
+         document.querySelector('.main').style.display="block";
+
 }else{
     alert('wrong password');
 } 

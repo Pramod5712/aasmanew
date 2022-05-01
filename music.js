@@ -126,6 +126,14 @@ let isPlaying = false;
                      type: "Slowed + Reverbed",
 
        },
+    {
+       src: "https://dl.dropbox.com/s/bqppvuhz3qy0ikl/y2mate.com%20-%20o%20mehrama%20lofi%20extended%20%20slowed%20%20reverb%20%20darshan%20raval.mp3?dl=0",
+         name: "om",
+         title: "O MEHRAMA",
+         artist: "Darshan Rawal",
+         type: "Slowed + Reverbed",
+   
+       },
    
    
    ]

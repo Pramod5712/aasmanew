@@ -16,7 +16,8 @@ html{
 /********** NAV > LOGOBOX > IMG(LOGO)  **********/
 .main{
   background: linear-gradient(#FFF5FB,#FDDBE2);
-  
+  position: absolute;
+  display: none;
   height: 300vh;
   width: 100vw;
 }.nav{

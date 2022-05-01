@@ -6,6 +6,8 @@
   font-family: sans-serif;
   background: url("https://dl.dropbox.com/s/ipobnuzogovucsi/img_20220430_103507.jpg?dl=0") no-repeat;
 /*background: black;*/
+    background: linear-gradient(#FDEFF0,#FE92A4);
+
   background-size: cover;
  /* background-position: center;*/
 z-index: 100;
